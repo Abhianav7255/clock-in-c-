@@ -36,17 +36,25 @@ This is a basic C++ program that takes user input for hours, minutes, and second
 1. Clone the repository:
    ```bash
    git clone https://github.com/Abhianav7255/clock-in-c-
-   cd https://github.com/Abhianav7255
-   Compile the code:
+   cd clock-in-c-
+   ```
 
-bash
-Copy code
-g++ -o clock clock.cpp
-Run the program:
+2. Compile the code:
+   ```bash
+   g++ -o clock clock.cpp
+   ```
 
-bash
-Copy code
-./clock
+3. Run the program:
+   ```bash
+   ./clock
+   ```
+
+---
+
+## Code Snippet for Input Validation
+
+```cpp
+bool validInput = false;
 while (!validInput) {
     cout << "Enter Hour (0-23): ";
     cin >> h;
@@ -63,20 +71,31 @@ while (!validInput) {
         clearScreen();
     }
 }
-Future Improvements
-Add cross-platform compatibility by replacing system("cls") and Sleep() with portable alternatives.
-Implement a GUI version for a more interactive experience.
-Allow the user to set alarms or stop the clock.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+```
 
-Contributions
+---
+
+## Future Improvements
+
+- Add cross-platform compatibility by replacing `system("cls")` and `Sleep()` with portable alternatives.
+- Implement a GUI version for a more interactive experience.
+- Allow the user to set alarms or stop the clock.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributions
+
 Contributions are welcome! If you find a bug or have suggestions, feel free to open an issue or create a pull request.
 
-Author
-Abhinav
-GitHub: https://github.com/Abhianav7255
-css
-Copy code
+---
 
-Feel free to replace placeholders like `<repository_url>` and `[Your Name]` with the actual details.
+## Author
+
+**Abhinav**  
+GitHub: [https://github.com/Abhianav7255](https://github.com/Abhianav7255)
